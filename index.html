@@ -33,7 +33,7 @@
   
     window.fbAsyncInit = function() {
       FB.init({
-        appId      : '{your-app-id}',
+        appId      : 478015232651328,
         cookie     : true,  // enable cookies to allow the server to access 
                             // the session
         xfbml      : true,  // parse social plugins on this page
@@ -81,13 +81,6 @@
 
 
 <body ng-app="myApp">
-
-<p><a href="#/!">Main</a></p>
-
-<a href="#!red">Red</a>
-<a href="#!green">Green</a>
-<a href="#!blue">Blue</a>
-
 <div ng-view></div>
 
 <script>
@@ -104,7 +97,5 @@ app.config(function($routeProvider) {
     })
 });
 </script>
-
-<p>Click on the links to navigate to "red.htm", "green.htm", "blue.htm", or back to "main.htm"</p>
 </body>
 </html>
