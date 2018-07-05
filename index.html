@@ -30,6 +30,12 @@
         statusChangeCallback(response);
       });
     }
+
+    function logout(){
+        FB.logout(function(response) {
+        console.log("logout=====", response);
+        });
+    }
   
     window.fbAsyncInit = function() {
       FB.init({
